@@ -1,6 +1,3 @@
-<img src="https://avatars.githubusercontent.com/u/5495088?v=4" width="100" height="100" style="border-radius: 100%;">
-<img src="https://cdn.icon-icons.com/icons2/3914/PNG/512/prisma_logo_icon_248778.png" width="100" height="100">
-
 Hello, devs of Prisma 👋
 
 I'm [Owen](https://owenrichards.dev/) and welcome to my take-home challenge for the Prisma Senior developer role.
