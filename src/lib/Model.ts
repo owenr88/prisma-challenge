@@ -54,6 +54,10 @@ export class Model<Fields extends object> {
    * @returns The validated data
    */
   public insertMany(data: Fields[]) {
+    if (!Array.isArray(data)) {
+      throw new Error("Data must be an array");
+    }
+    if (!data.length) return;
     this.data = this.validate(data);
   }
 

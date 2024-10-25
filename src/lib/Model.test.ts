@@ -36,6 +36,8 @@ describe("Model", () => {
     model.insertMany(validData);
     // @ts-expect-error private method being accessed for testing
     expect(model.data).toStrictEqual(validData);
+    // @ts-expect-error breaking to test error
+    expect(() => model.insertMany({})).toThrow(Error);
   });
 
   describe("findMany", () => {
