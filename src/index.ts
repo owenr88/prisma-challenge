@@ -5,7 +5,7 @@ import { thing } from "./models/Thing";
 const run = () => {
   try {
     // Parse the CSV file
-    const data = Parse.importFromCSV("things.csv");
+    const data = Parse.importFromCSVAssets("things.csv");
 
     // Validate the data and store it
     const validatedData = thing.validate(data);
