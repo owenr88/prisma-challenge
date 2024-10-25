@@ -30,7 +30,7 @@
     "typescript-eslint": "^8.11.0"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=20.18.0"
   },
   "dependencies": {
     "papaparse": "^5.4.1",
